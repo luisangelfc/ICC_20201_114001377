@@ -1,0 +1,23 @@
+
+import shapesSVG.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Vector2 vector = new Vector2(235.0, 500.0);
+        Circulo circulo = new Circulo(230,94, 50.0);
+        Rectangulo rectangulo = new Rectangulo(534,50, 100, 200);
+        Triangulo triangulo = new Triangulo( 243 ,303 ,30, 54 ,110,20);
+        Linea linea = new Linea (2, 41, 210,300);
+
+        System.out.println("<svg version='1.1' baseProfile='full'"+
+        " width='800' height='800'"+
+        " xmlns='http://www.w3.org/2000/svg'>");
+        System.out.println("\t" + vector.toSVG());
+        System.out.println("\t" + circulo.toSVG());
+        System.out.println("\t" + rectangulo.toSVG());
+        System.out.println("\t" + triangulo.toSVG());
+        System.out.println("\t" + linea.toSVG());
+        System.out.println("</svg>");
+    }
+}

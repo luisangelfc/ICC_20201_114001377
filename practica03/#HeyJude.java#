@@ -1,3 +1,4 @@
+
 public class HeyJude{
     public static String HEY = "Hey Jude ";
     public static String DON = "don't ";
@@ -87,13 +88,13 @@ int xd=1;
 		}
 		if(h==5){
 			
-			for(int i=3; i<=3; i++){
+			for(int i=0; i<=3; i++){
 			System.out.print("\n" + BET);
 			}
 		        
 		}		
 			
-			for(int i=6; i<=9; i++){
+			for(int i=1; i<=9; i++){
 			System.out.print("\n" + NA);
 			}
 		}
