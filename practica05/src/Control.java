@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 
 
-/**
+	/**
 /*@author Hernández Martínez Luis Angel
 /*Clase Control
 /*Practica 05
@@ -103,7 +103,7 @@ public class Control{
     
        /**
 /* Metodo Problema6
-/*@param Método que recibe un numero, y dado ese numero, regresa un arreglo con los numeros primos anterirores a ese número.
+/*@param Método que recibe un numero, y dado ese numero, regresa un arreglo con los numeros primos anteriores a ese número.
 
        **/ 
     public static int[] problema6(int n){
