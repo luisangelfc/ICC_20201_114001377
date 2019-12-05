@@ -4,4 +4,4 @@
 			       gradle buil
 				gradle run
 
-	El cual automaticamente compilará todos los archivos y ejecutará el programa :)
+	El cual automaticamente compilará todos los archivos y ejecutará el programa :))
