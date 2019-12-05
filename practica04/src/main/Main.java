@@ -39,6 +39,8 @@ System.out.println(linea1.toSVG());
 	System.out.println(vector6.toSVG());
 	
 		System.out.println(cierre);
+
+		
     }
 }
 

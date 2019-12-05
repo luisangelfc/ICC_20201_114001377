@@ -29,7 +29,6 @@ public class Linea{
 	this.b=n;
 
     }
-
     /** Segundo constructor
 	/* @param x1 es de tipo double
 	/* @param x2 es de tipo double
@@ -68,9 +67,17 @@ public class Linea{
     public String toSVG (){
 	String svg = "";
 	svg = svg + "<line x1='"+this.a.getX()+"' y1='"+this.a.getY()+"' x2='"+this.b.getX()+"' y2='"+this.b.getY()+"' style='stroke:rgb(255,0,0);stroke-width:2' />";
-	return svg;	
+	return svg;
+
+
+	
 
     }
+
+
+
+    
+    
 
     /**
        /* Método to String 

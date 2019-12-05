@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"app"},{"l":"chess.items"},{"l":"chess.pieces.model"},{"l":"chess.pieces.type"}]
